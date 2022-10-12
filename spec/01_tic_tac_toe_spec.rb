@@ -138,7 +138,7 @@ describe './lib/tic_tac_toe.rb' do
     end
 
     describe '#current_player' do
-      it 'returns the correct player, X, for the third move' do
+      it 'returns the correet player, X, for the third move' do
         game = TicTacToe.new
         board = ["O", " ", " ", " ", "X", " ", " ", " ", " "]
         game.instance_variable_set(:@board, board)
